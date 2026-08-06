@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kundu Mees Attendance</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>🏠 Kundu Mees</h1>
+
+<h2>Daily Attendance</h2>
+
+
+<label>
+<b>📅 Select Date:</b>
+</label>
+
+<input type="date" id="attendanceDate">
+
+
+<br><br>
+
+
+<table>
+
+<tr>
+<th>Name</th>
+<th>Day</th>
+<th>Night</th>
+</tr>
+
+<tr><td>Ramu</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Nabin</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Suman</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Riman</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Dipankar</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Krishna</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Pradip</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Santu</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Madhav</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Deep</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Mohit</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Suman 2</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Surojit</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Bikash</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Riju</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+<tr><td>Sovon</td><td><button class="toggle">❌</button></td><td><button class="toggle">❌</button></td></tr>
+
+
+</table>
+
+
+<br>
+
+<button id="save">
+💾 Save Attendance
+</button>
+
+
+<button onclick="location.href='report.html'">
+📊 Monthly Report
+</button>
+
+
+
+<script type="module" src="script.js"></script>
+
+<hr>
+
+<h3>📊 Attendance Summary</h3>
+
+<p>🌞 Day Present: <span id="dayCount">0</span></p>
+
+<p>🌙 Night Present: <span id="nightCount">0</span></p>
+
+<p>✅ Total Attendance: <span id="totalCount">0</span></p>
+
+
+</body>
+</html>
